@@ -153,11 +153,12 @@ public class IconShapeOptionProvider {
     private int loadCornerRadius(String packageName)
             throws NameNotFoundException, NotFoundException {
 
-        Resources overlayRes =
+        /* Resources overlayRes =
                 mContext.getPackageManager().getResourcesForApplication(
                         packageName);
         return overlayRes.getDimensionPixelOffset(overlayRes.getIdentifier(
-                CONFIG_CORNERRADIUS, "dimen", packageName));
+                CONFIG_CORNERRADIUS, "dimen", packageName)); */
+        return 8;
     }
 
 }
